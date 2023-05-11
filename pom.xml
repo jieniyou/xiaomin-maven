@@ -9,13 +9,13 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
-    <packaging>pom</packaging>
+    <!--<packaging>pom</packaging>-->
     <description>extension of spring-boot-tools</description>
     <url>https://github.com/jieniyou/xiaomin-maven</url>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--插件版本-->
